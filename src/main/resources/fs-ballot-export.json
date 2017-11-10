@@ -1,0 +1,72 @@
+{
+  "ballot" : {
+    "a-skjdvnasd-asd" : {
+      "emailAddress" : "a.skjdvnasd@asd",
+      "firstName" : "asv;nl",
+      "lastName" : "a.,svn",
+      "name1" : "as",
+      "name2" : " mv",
+      "name3" : ".,mnv.,",
+      "name4" : "bvlkbj",
+      "name5" : " kgfjgvluhk",
+      "name6" : "bvlkd;oi",
+      "name7" : "vbhjbflvui",
+      "name8" : "bjlkvfkj",
+      "name9" : "vuifhsu",
+      "timestamp" : 1510321308161,
+      "vip" : true,
+      "year" : "Year 1"
+    },
+    "asdfadf-sf" : {
+      "emailAddress" : "asdfadf@sf",
+      "firstName" : "asdf",
+      "lastName" : "asdf",
+      "name1" : "asdf",
+      "name2" : "sadv",
+      "name3" : " ,mnxc",
+      "name4" : "asvjkioh",
+      "name5" : " msv hjkh.v",
+      "name6" : " ba,svh",
+      "name7" : "bavlkjh",
+      "name8" : "jlkvah",
+      "name9" : "jklhvas",
+      "timestamp" : 1510318978220,
+      "vip" : true,
+      "year" : "Year 1"
+    },
+    "asdffads-sasdf" : {
+      "emailAddress" : "asdffads@sasdf",
+      "firstName" : "ASDf",
+      "lastName" : "ASDF",
+      "name1" : "ASDF",
+      "name2" : "asdf",
+      "name3" : "sdfv",
+      "name4" : "asvr",
+      "name5" : "asbgsgq",
+      "name6" : "lkjhb",
+      "name7" : "lkavo;i",
+      "name8" : "bm,sa vlk",
+      "name9" : "bm,ns v,",
+      "timestamp" : 1510321270842,
+      "vip" : true,
+      "year" : "Year 1"
+    },
+    "ls99-st-andrews-ac-uk" : {
+      "emailAddress" : "ls99@st-andrews.ac.uk",
+      "firstName" : "Louis",
+      "lastName" : "Stewartg",
+      "name1" : "aaasdf",
+      "name2" : "casd",
+      "name3" : "casd",
+      "name4" : "casdf",
+      "name5" : "v asdf",
+      "name6" : "  asdf",
+      "name7" : "asdf",
+      "name8" : "asdfv",
+      "name9" : "awesf",
+      "timestamp" : 1510321131427,
+      "vip" : true,
+      "year" : "Year 1"
+    }
+  }
+}
