@@ -1,3 +1,6 @@
+package ballot;
+
+import ballot.Ballot;
 import com.google.gson.*;
 
 import java.lang.reflect.Type;

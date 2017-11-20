@@ -1,6 +1,9 @@
+package ballot;
+
 import com.google.gson.*;
 
 import java.lang.reflect.Type;
+import java.util.Arrays;
 
 public class TableDeserialiser implements JsonDeserializer<Table> {
     @Override
@@ -19,6 +22,8 @@ public class TableDeserialiser implements JsonDeserializer<Table> {
         for(int i = 1; i < 10; i++) {
             names[i-1] = jobj.get("name"+i).getAsString();
         }
+
+        Arrays.sort(names); // Get lexicographical ordering on names
 
         return new Table(email, head, names, vip, year);
     }

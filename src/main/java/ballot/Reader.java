@@ -1,3 +1,5 @@
+package ballot;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.core.io.ClassPathResource;
@@ -18,6 +20,8 @@ public class Reader {
             String json = new String(Files.readAllBytes(Paths.get(f.getAbsolutePath())));
             System.out.println(json);
             Ballot b = gson.fromJson(json, Ballot.class);
+            BallotFilter bf = new BallotFilter(b);
+            bf.readSortPrint(new ClassPathResource("tables_clean.csv").getPath());
 
         } catch (IOException e) {
             e.printStackTrace();
