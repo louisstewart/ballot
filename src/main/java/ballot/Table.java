@@ -40,6 +40,17 @@ public class Table {
         return table;
     }
 
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Email: ").append(email).append("\n")
+                .append("Head: ").append(head).append("\n")
+                .append("Year: ").append(year).append("\n");
+        for(String name: names) {
+            sb.append("Name: ").append(name).append("\n");
+        }
+        return sb.toString();
+    }
+
     public String getEmail() {
         return email;
     }
